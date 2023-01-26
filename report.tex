@@ -10,15 +10,13 @@
  \usepackage{graphicx}
  \usepackage{titling}
 
- \title{Impact of capital return and income growth on economy inequality
+ \title{Simulating capital return and income growth to explore their impact on wealth inequality
 }
 \author{Haoran Jie hj376}
-\date{November 2022}
+\date{January 2023}
  
  \usepackage{fancyhdr}
 \fancypagestyle{plain}{%  the preset of fancyhdr 
-    \fancyhf{} % clear all header and footer fields
-    \fancyfoot[L]{\thedate}
     \fancyhead[L]{Tick4}
     \fancyhead[R]{\theauthor}
 }
@@ -44,21 +42,24 @@
 
 \maketitle
 
-\noindent\begin{tabular}{@{}ll}
-    Student & \theauthor\\
-     Promotor &  dr. Gilles Callebaut\\
-     Co-promotors & ing. Jarne Van Mulders, ing. Guus Leenders
-\end{tabular}
 
-\section*{Positioning of the thesis}
-\lipsum[1-2]
+\section*{Goals}
+Argued by the economist Thomas Piketty in his book \textit{Capital in the Twenty-first Century}, the growth of income from capital (i.e. investments, property, etc.)\footnote{In this study we simplify the situation by assuming capital to be the current wealth} has been outpacing economic growth, leading to increased inequality. This report gather, simulate, and analyse data to test the validity of Piketty's theory and to understand the causes and implications of increasing inequality.
 
-\section*{Objectives}
-\lipsum[3-3]
+\section*{Methodology}
+1000 individuals randomly assigned per-timestep income
+Return on capital growth factor
+Gini coeficient to measure inequality
+Also measure economic mobility because "some degree of inequality might be acceptible if economic mobility were high"
+Incorporate exchange model to allow for certain level of uncertainty (The extension for tick 1)
 
-\section*{Plan}
-\lipsum[4-4]
+1. Choose a return on capital smaller than the economic growth and see how the inequality changes overtime
+2. Choose a return on capital higher than the economic growth and see how the inequality changes over time
 
+\section*{Result}
+
+
+\section*{Conclusion}
 
 
 \end{document}

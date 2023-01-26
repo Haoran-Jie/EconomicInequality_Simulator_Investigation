@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.21)  26 JAN 2023 21:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.21)  26 JAN 2023 22:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -163,20 +163,20 @@ File: ot1cmbr.fd 2005/04/13 v8.1 (WaS)
 )) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -231,6 +231,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+LaTeX Font Info:    Font shape `OT1/cmbr/b/n' in size <14.4> not available
+(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 46.
+LaTeX Font Info:    Font shape `OT1/cmbr/m/it' in size <10> not available
+(Font)              Font shape `OT1/cmbr/m/sl' tried instead on input line 47.
 LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line 47.
  (c:/texlive/2022/texmf-dist/tex/latex/cmbright/omlcmbrm.fd
 File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
@@ -243,8 +247,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 47.
-LaTeX Font Info:    Font shape `OT1/cmbr/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 53.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 47.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 47.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -257,18 +263,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 2692 strings out of 474971
- 48175 string characters out of 5780120
- 485992 words of memory out of 5000000
- 24186 multiletter control sequences out of 15000+600000
- 472915 words of font info for 40 fonts, out of 8000000 for 9000
+ 2704 strings out of 474971
+ 48342 string characters out of 5780120
+ 483026 words of memory out of 5000000
+ 24197 multiletter control sequences out of 15000+600000
+ 475105 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,366b,285s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbrbx10.pfb>
-Output written on report.pdf (1 page, 33880 bytes).
+ 72i,11n,77p,698b,283s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbrbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbrsl10.pfb>
+Output written on report.pdf (1 page, 60172 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
