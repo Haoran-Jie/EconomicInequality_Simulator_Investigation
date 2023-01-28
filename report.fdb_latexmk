@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1674855042 "c:/Users/Samuel/OneDrive - University of Cambridge/Uni/Computer Science/Year1/WinterHoliday/Scientific_Computing/Tick4_Investigation/report.tex" "report.pdf" "report" 1674855045 0
-  "c:/Users/Samuel/OneDrive - University of Cambridge/Uni/Computer Science/Year1/WinterHoliday/Scientific_Computing/Tick4_Investigation/report.tex" 1674855041 2060 8e4a0238d2fd0ae8d28b5c029293a958 ""
+["pdflatex"] 1674947912 "c:/Users/Samuel/OneDrive - University of Cambridge/Uni/Computer Science/Year1/WinterHoliday/Scientific_Computing/Tick4_Investigation/report.tex" "report.pdf" "report" 1674947916 0
+  "c:/Users/Samuel/OneDrive - University of Cambridge/Uni/Computer Science/Year1/WinterHoliday/Scientific_Computing/Tick4_Investigation/report.tex" 1674947911 2570 e5231d20cd8bb617ed5352cdddf6ee36 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1668992093 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cmbright/cmbr10.tfm" 1668990882 1304 95ad082f6791446dc43df559d5c79878 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cmbright/cmbr17.tfm" 1668990882 1292 864850248589e7d3af41afc829d0eaf3 ""
@@ -47,8 +47,8 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1669022889 4662777 6d30ebd1f2949ad7a3d8a3b5cd0d9f7d ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1669023061 3063423 fc076887b5f55ea34a1e6799e7e33213 ""
   "c:/texlive/2022/texmf.cnf" 1669022868 713 e69b156964470283e0530f5060668171 ""
-  "report.aux" 1674855045 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "report.tex" 1674855041 2060 8e4a0238d2fd0ae8d28b5c029293a958 ""
+  "report.aux" 1674947916 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "report.tex" 1674947911 2570 e5231d20cd8bb617ed5352cdddf6ee36 ""
   (generated)
   "report.aux"
   "report.log"
