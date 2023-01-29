@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.21)  29 JAN 2023 12:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.21)  29 JAN 2023 12:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -251,17 +251,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 47.
-LaTeX Font Info:    Font shape `OT1/cmbr/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 54.
 <Pics//ratio_comparison.png, id=1, 615.0177pt x 552.1428pt>
 File: Pics//ratio_comparison.png Graphic file (type png)
 <use Pics//ratio_comparison.png>
-Package pdftex.def Info: Pics//ratio_comparison.png  used on input line 75.
+Package pdftex.def Info: Pics//ratio_comparison.png  used on input line 79.
 (pdftex.def)             Requested size: 227.61867pt x 170.71597pt.
 <Pics//Mobility.png, id=3, 416.2752pt x 327.3831pt>
 File: Pics//Mobility.png Graphic file (type png)
 <use Pics//Mobility.png>
-Package pdftex.def Info: Pics//Mobility.png  used on input line 77.
+Package pdftex.def Info: Pics//Mobility.png  used on input line 81.
 (pdftex.def)             Requested size: 227.62453pt x 170.71974pt.
 
 
@@ -275,15 +273,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
  <./Pics//ratio_comparison.png> <./Pics//Mobility.png>] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 2726 strings out of 474971
- 48829 string characters out of 5780120
- 484035 words of memory out of 5000000
- 24215 multiletter control sequences out of 15000+600000
- 475400 words of font info for 48 fonts, out of 8000000 for 9000
+ 2724 strings out of 474971
+ 48798 string characters out of 5780120
+ 486035 words of memory out of 5000000
+ 24213 multiletter control sequences out of 15000+600000
+ 475105 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,698b,283s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,11n,77p,697b,285s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbrbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbrsl10.pfb>
-Output written on report.pdf (1 page, 138252 bytes).
+Output written on report.pdf (1 page, 137996 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream

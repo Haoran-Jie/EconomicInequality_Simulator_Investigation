@@ -44,16 +44,19 @@
 
 
 \section*{Goals}
-Argued by the economist Thomas Piketty in his book \textit{Capital in the Twenty-first Century}, the growth of income from capital (i.e. investments, property, etc.)\footnote{In this study we simplify the situation by assuming capital to be the current wealth} has been outpacing economic growth, leading to increased inequality. This report gather, simulate, and analyse data to test the validity of Piketty's theory and to understand the causes and implications of increasing inequality.
+Argued by the economist Thomas Piketty in his book \textit{Capital in the Twenty-first Century}, the growth of income from capital (i.e. investments, property, etc.)\footnote{In this study simplifies the situation by assuming capital to be the current wealth} has been outpacing economic growth, leading to increased inequality. This report gather, simulate, and analyse data to test the validity of Piketty's theory and to understand the causes and implications of increasing inequality.
 \vspace{-0.4cm}
 \section*{Methodology}
 \vspace{-0.3cm}
-To investigate this idea, we will create a simple model of the economy by assigning each individual(1000 in total) a per-timestep income, 
-which will be randomly chosen a priori. We will then incorporate return on capital into the model by multiplying wealth by a growth factor every timestep.
-Additionally, we will normalize wealth every timestep to prevent unbounded growth.\\
-To measure the results of our simulation, we will use the \textbf{Gini coefficient}, which measures the level of inequality in a society, 
-and a \textbf{mobility measure}, which calculates the proportion of people who moved by more than one quintile.\\
-We will run simulations with different ratios of return on capital to growth due to income and compare the results to see if increasing the return on capital leads to higher inequality.
+The methodology used in this report aims to test Thomas Piketty's theory about the increase of inequality in the economy as a 
+result of a higher return on capital than income growth. To do this, a simulator will be modified to simulate the economy by 
+assigning each individual a random per-timestep income and calculating the return on capital by multiplying wealth by a growth 
+factor every timestep. The simulator will normalize wealth every timestep to prevent numerical instability. The results of the 
+simulation will be measured by the Gini coefficient, which will indicate the level of inequality in the distribution of wealth,
+ and by a mobility measure, which will calculate the proportion of individuals who moved more than one quintile. By comparing 
+ the results of simulations with different ratios of return on capital to growth due to income, the report will seek to 
+ understand the relationship between the two and the validity of Piketty's theory.
+
 
 \vspace{-0.4cm}
 
@@ -69,7 +72,8 @@ We will run simulations with different ratios of return on capital to growth due
 \vspace{-0.3cm}
 
 Our plot on the left shows that as the ratio of return on capital to growth due to income increases, 
-the Gini coefficient also increases as iteration goes through, indicating higher levels of inequality. 
+the Gini coefficient also increases as iteration goes through, indicating higher levels of inequality. \\
+Our plot on the right shows that there exists an inverse relationship between mobility and the ratio of return on capital to growth due to income increases.
 
 \vspace{0.3cm}
 \includegraphics[width=8cm,height=6cm]{ratio_comparison.png}
@@ -78,6 +82,10 @@ the Gini coefficient also increases as iteration goes through, indicating higher
 
 \vspace{-0.4cm}
 \section*{Conclusion}
-
+The conclusion of this report supports Thomas Piketty's theory that increased inequality in the economy is due to a higher
+return on capital than income growth.
+The results of the simulations indicate that this leads to decreased mobility and increased 
+concentration of wealth in a few individuals. The findings of this report suggest the need for policies to 
+address the issue of increasing inequality in the economy.
 
 \end{document}
