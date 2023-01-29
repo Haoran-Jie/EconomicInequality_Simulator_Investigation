@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.21)  29 JAN 2023 00:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.21)  29 JAN 2023 00:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -253,6 +253,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 46.
 LaTeX Font Info:    Font shape `OT1/cmbr/b/n' in size <10> not available
 (Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 52.
+<Pics/ratio_comparison.png, id=1, 615.0177pt x 552.1428pt>
+File: Pics/ratio_comparison.png Graphic file (type png)
+<use Pics/ratio_comparison.png>
+Package pdftex.def Info: Pics/ratio_comparison.png  used on input line 71.
+(pdftex.def)             Requested size: 483.69684pt x 434.25029pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 71--72
+[][] 
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -263,20 +272,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] (./report.aux) ) 
+] [2 <./Pics/ratio_comparison.png>] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 2706 strings out of 474971
- 48373 string characters out of 5780120
+ 2715 strings out of 474971
+ 48583 string characters out of 5780120
  484026 words of memory out of 5000000
- 24199 multiletter control sequences out of 15000+600000
+ 24205 multiletter control sequences out of 15000+600000
  475400 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,698b,283s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,11n,77p,698b,279s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbrbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbrsl10.pfb>
-Output written on report.pdf (1 page, 61531 bytes).
+Output written on report.pdf (2 pages, 123808 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
