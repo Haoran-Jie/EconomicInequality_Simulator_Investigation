@@ -578,7 +578,6 @@ INPUT c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT report.aux
 INPUT ./report.out
 INPUT ./report.out
-INPUT c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb
 INPUT c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb
 INPUT c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb
