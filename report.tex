@@ -4,9 +4,9 @@
 \usepackage{hyperref}
  \geometry{
  a4paper,
- total={170mm,257mm},
+ total={170mm,275mm},
  left=20mm,
- top=20mm,
+ top=15mm,
  }
  \usepackage{graphicx}
  \graphicspath{{Pics/}}
@@ -46,18 +46,21 @@
 
 
 \section*{Goals}
-Argued by the economist Thomas Piketty in his book \textit{Capital in the Twenty-first Century}, the growth of income from capital (i.e. investments, property, etc.)\footnote{This study simplifies the situation by assuming capital to be the current wealth} has been outpacing economic growth, leading to increased inequality. This report gather, simulate, and analyse data to test the validity of Piketty's theory and to understand the causes and implications of increasing inequality.
+\vspace{-0.3cm}
+Argued by the economist Thomas Piketty in his book \textit{Capital in the Twenty-first Century}, the growth of income from capital (i.e. investments, property, etc.)\footnote{This study simplifies the simulation by assuming capital to be the current wealth} has been outpacing economic growth, leading to increased inequality. This report gather, simulate, and analyse data to test the validity of Piketty's theory and to understand the causes and implications of increasing inequality.
 \vspace{-0.4cm}
 \section*{Methodology}
 \vspace{-0.3cm}
 To test Thomas Piketty's theory, this study will simulate the economy by 
-assigning each individual\footnote{1000 individuals, and 100 timesteps in total} a random, normally-distributed, per-timestep income and calculating the return on capital by multiplying wealth $w_i$ by a growth 
-factor $g_i$ every timestep.\footnote{$g_i$ is calculated such that it positively correlates with $w_i$, and the total return to capital would approximately match the ratio} The simulator will normalize wealth every timestep, by limiting total with to 1000, to prevent numerical instability. The results of the 
+assigning each individual a random, normally-distributed, per-timestep income and calculating the return on capital by multiplying wealth $w_i$ by a growth 
+factor $g_i$ every timestep($g_i$ is calculated such that it positively correlates with $w_i$, and the total return to capital would approximately match the ratio). 
+The simulator will normalize wealth every timestep, by limiting total with to 1000, to prevent numerical instability. It will also incorporate value transfer model to simulate real-life random economic exchanges between individuals. The results of the 
 simulation will be measured by the Gini coefficient, which will indicate the level of inequality in the distribution of wealth,
  and by a mobility measure, which will calculate the proportion of individuals who moved more than one quintile. By comparing 
  the results of simulations with different ratios of return on capital to growth due to income, the report will seek to 
  understand the relationship between the two and the validity of Piketty's theory.\footnote{Source code is made available on  \url{https://github.com/Haoran-Jie/EconomicInequality_Simulator_Investigation}}
-
+\\\\
+The simulation was run on population of size 1000. On each ratio of return on capital to growth due to income, 100 timesteps were run. This time was chosen to be large enough for Gini coeficient to stablize. For mobility measurement, 25 different ratios were evenly sampled from 0.1 to 10.
 
 \vspace{-0.4cm}
 
@@ -83,6 +86,7 @@ Our plot on the right shows that there exists an inverse relationship between mo
 
 \vspace{-0.4cm}
 \section*{Conclusion}
+\vspace{-0.3cm}
 The conclusion of this report supports Thomas Piketty's theory that increased inequality in the economy is due to a higher
 return on capital than income growth.
 The results of the simulations indicate that this leads to decreased mobility and increased 

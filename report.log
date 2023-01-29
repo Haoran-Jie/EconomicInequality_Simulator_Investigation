@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.21)  29 JAN 2023 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.21)  29 JAN 2023 14:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -298,14 +298,14 @@ LaTeX Font Info:    ... okay on input line 43.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(56.9055pt, 483.69684pt, 56.90553pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23582pt, 56.90552pt)
+* v-part:(T,H,B)=(42.67912pt, 782.45078pt, 19.91695pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=483.69684pt
-* \textheight=731.23582pt
+* \textheight=782.45078pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
+* \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -350,38 +350,41 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 LaTeX Font Info:    Font shape `OT1/cmbr/b/n' in size <14.4> not available
 (Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/cmbr/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmbr/m/sl' tried instead on input line 49.
-LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line 49.
+(Font)              Font shape `OT1/cmbr/m/sl' tried instead on input line 50.
+LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line 50.
  (c:/texlive/2022/texmf-dist/tex/latex/cmbright/omlcmbrm.fd
 File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line 49.
+LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line 50.
  (c:/texlive/2022/texmf-dist/tex/latex/cmbright/omscmbrs.fd
 File: omscmbrs.fd 2005/04/13 v8.1 (WaS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 49.
+(Font)              <7> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 49.
+(Font)              <5> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 49.
+(Font)              <8> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 49.
-LaTeX Font Info:    Trying to load font information for OT1+cmtl on input line 59.
+(Font)              <6> on input line 50.
+LaTeX Font Info:    Trying to load font information for OT1+cmtl on input line 61.
  (c:/texlive/2022/texmf-dist/tex/latex/cmbright/ot1cmtl.fd
 File: ot1cmtl.fd 2005/04/13 v8.1 (WaS)
 )
-<Pics//ratio_comparison.png, id=9, 615.0177pt x 552.1428pt>
+Underfull \hbox (badness 10000) in paragraph at lines 54--64
+
+ []
+
+<Pics//ratio_comparison.png, id=7, 615.0177pt x 552.1428pt>
 File: Pics//ratio_comparison.png Graphic file (type png)
 <use Pics//ratio_comparison.png>
-Package pdftex.def Info: Pics//ratio_comparison.png  used on input line 80.
+Package pdftex.def Info: Pics//ratio_comparison.png  used on input line 83.
 (pdftex.def)             Requested size: 227.61867pt x 199.16724pt.
-<Pics//Mobility.png, id=11, 416.2752pt x 327.3831pt>
+<Pics//Mobility.png, id=9, 416.2752pt x 327.3831pt>
 File: Pics//Mobility.png Graphic file (type png)
 <use Pics//Mobility.png>
-Package pdftex.def Info: Pics//Mobility.png  used on input line 82.
+Package pdftex.def Info: Pics//Mobility.png  used on input line 85.
 (pdftex.def)             Requested size: 227.62453pt x 199.16888pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 12.49998pt, for example:
@@ -396,18 +399,18 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9476 strings out of 474971
- 154995 string characters out of 5780120
- 595362 words of memory out of 5000000
+ 9474 strings out of 474971
+ 154973 string characters out of 5780120
+ 596363 words of memory out of 5000000
  30847 multiletter control sequences out of 15000+600000
  475273 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,11n,77p,694b,433s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,11n,77p,695b,433s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbrbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbrsl10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hftl10.pfb>
-Output written on report.pdf (1 page, 167366 bytes).
+Output written on report.pdf (1 page, 163919 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
+ 69 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

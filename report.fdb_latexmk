@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1675000888 "c:/Users/Samuel/OneDrive - University of Cambridge/Uni/Computer Science/Year1/WinterHoliday/Scientific_Computing/Tick4_Investigation/report.tex" "report.pdf" "report" 1675000892 0
-  "Pics//Mobility.png" 1674992738 35114 6e1fd3507083873209e9dd47b7c36bfd ""
-  "Pics//ratio_comparison.png" 1675000447 66590 1816f6bdaa82f279c7b70edd28947b4d ""
-  "c:/Users/Samuel/OneDrive - University of Cambridge/Uni/Computer Science/Year1/WinterHoliday/Scientific_Computing/Tick4_Investigation/report.tex" 1675000886 4239 70c84a21d97c22258955e4aa9b8903a6 ""
+["pdflatex"] 1675003072 "c:/Users/Samuel/OneDrive - University of Cambridge/Uni/Computer Science/Year1/WinterHoliday/Scientific_Computing/Tick4_Investigation/report.tex" "report.pdf" "report" 1675003077 0
+  "Pics//Mobility.png" 1675002960 28477 f19068948c1befd392943e695cfd757c ""
+  "Pics//ratio_comparison.png" 1675001131 74122 c48d20635fb259a36e8faab9cf18fe97 ""
+  "c:/Users/Samuel/OneDrive - University of Cambridge/Uni/Computer Science/Year1/WinterHoliday/Scientific_Computing/Tick4_Investigation/report.tex" 1675003071 4622 d6398df21780c12d8320f8b98c3acfe5 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1668992093 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cmbright/cmbr10.tfm" 1668990882 1304 95ad082f6791446dc43df559d5c79878 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cmbright/cmbr17.tfm" 1668990882 1292 864850248589e7d3af41afc829d0eaf3 ""
@@ -81,9 +81,9 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1669022889 4662777 6d30ebd1f2949ad7a3d8a3b5cd0d9f7d ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1669023061 3063423 fc076887b5f55ea34a1e6799e7e33213 ""
   "c:/texlive/2022/texmf.cnf" 1669022868 713 e69b156964470283e0530f5060668171 ""
-  "report.aux" 1675000891 554 e6f85c6f44bbe194532b4fa1fd8ca02c "pdflatex"
-  "report.out" 1675000891 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "report.tex" 1675000886 4239 70c84a21d97c22258955e4aa9b8903a6 ""
+  "report.aux" 1675003076 554 e6f85c6f44bbe194532b4fa1fd8ca02c "pdflatex"
+  "report.out" 1675003076 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "report.tex" 1675003071 4622 d6398df21780c12d8320f8b98c3acfe5 ""
   (generated)
   "report.aux"
   "report.log"
