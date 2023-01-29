@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{geometry}
+\usepackage{hyperref}
  \geometry{
  a4paper,
  total={170mm,257mm},
@@ -10,7 +11,7 @@
  \usepackage{graphicx}
  \graphicspath{{Pics/}}
  \usepackage{titling}
- \title{Simulating capital return and income growth to explore their impact on wealth inequality
+ \title{Inequality in the Economy: Testing Piketty's Theory through Simulation
 }
 \author{Haoran Jie hj376}
 \date{January 2023}
@@ -44,18 +45,17 @@
 
 
 \section*{Goals}
-Argued by the economist Thomas Piketty in his book \textit{Capital in the Twenty-first Century}, the growth of income from capital (i.e. investments, property, etc.)\footnote{In this study simplifies the situation by assuming capital to be the current wealth} has been outpacing economic growth, leading to increased inequality. This report gather, simulate, and analyse data to test the validity of Piketty's theory and to understand the causes and implications of increasing inequality.
+Argued by the economist Thomas Piketty in his book \textit{Capital in the Twenty-first Century}, the growth of income from capital (i.e. investments, property, etc.)\footnote{This study simplifies the situation by assuming capital to be the current wealth} has been outpacing economic growth, leading to increased inequality. This report gather, simulate, and analyse data to test the validity of Piketty's theory and to understand the causes and implications of increasing inequality.
 \vspace{-0.4cm}
 \section*{Methodology}
 \vspace{-0.3cm}
-The methodology used in this report aims to test Thomas Piketty's theory about the increase of inequality in the economy as a 
-result of a higher return on capital than income growth. To do this, a simulator will be modified to simulate the economy by 
-assigning each individual a random per-timestep income and calculating the return on capital by multiplying wealth by a growth 
-factor every timestep. The simulator will normalize wealth every timestep to prevent numerical instability. The results of the 
+To test Thomas Piketty's theory, this study will simulate the economy by 
+assigning each individual\footnote{1000 individuals, and 100 timesteps in total} a random, normally-distributed, per-timestep income and calculating the return on capital by multiplying wealth $w_i$ by a growth 
+factor $g_i$ every timestep.\footnote{$g_i$ is calculated such that it positively correlates with $w_i$, and is based on the ratio of return on capital to growth due to income} The simulator will normalize wealth every timestep to prevent numerical instability. The results of the 
 simulation will be measured by the Gini coefficient, which will indicate the level of inequality in the distribution of wealth,
  and by a mobility measure, which will calculate the proportion of individuals who moved more than one quintile. By comparing 
  the results of simulations with different ratios of return on capital to growth due to income, the report will seek to 
- understand the relationship between the two and the validity of Piketty's theory.
+ understand the relationship between the two and the validity of Piketty's theory.\footnote{Source code is made available on  \url{https://github.com/Haoran-Jie/EconomicInequality_Simulator_Investigation}}
 
 
 \vspace{-0.4cm}
@@ -73,19 +73,19 @@ simulation will be measured by the Gini coefficient, which will indicate the lev
 
 Our plot on the left shows that as the ratio of return on capital to growth due to income increases, 
 the Gini coefficient also increases as iteration goes through, indicating higher levels of inequality. \\
-Our plot on the right shows that there exists an inverse relationship between mobility and the ratio of return on capital to growth due to income increases.
+Our plot on the right shows that there exists an inverse relationship between mobility and the ratio of return on capital to growth due to income increases, despite some fluctuations. 
 
 \vspace{0.3cm}
-\includegraphics[width=8cm,height=6cm]{ratio_comparison.png}
+\includegraphics[width=8cm,height=7cm]{ratio_comparison.png}
 \hspace{0.2cm}
-\includegraphics[width=8cm,height=6cm]{Mobility.png}
+\includegraphics[width=8cm,height=7cm]{Mobility.png}
 
 \vspace{-0.4cm}
 \section*{Conclusion}
 The conclusion of this report supports Thomas Piketty's theory that increased inequality in the economy is due to a higher
 return on capital than income growth.
 The results of the simulations indicate that this leads to decreased mobility and increased 
-concentration of wealth in a few individuals. The findings of this report suggest the need for policies to 
+concentration of wealth in a few individuals. It is interesting to see that the gradient of the curve decreases and will eventual reach a limit as a horiontal asymptotes. The findings of this report suggest the need for policies to 
 address the issue of increasing inequality in the economy.
 
 \end{document}
