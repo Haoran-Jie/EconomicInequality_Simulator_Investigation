@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.21)  29 JAN 2023 00:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.21)  29 JAN 2023 00:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -252,11 +252,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 47.
 LaTeX Font Info:    Font shape `OT1/cmbr/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 53.
+(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 54.
 <Pics//ratio_comparison.png, id=1, 615.0177pt x 552.1428pt>
 File: Pics//ratio_comparison.png Graphic file (type png)
 <use Pics//ratio_comparison.png>
-Package pdftex.def Info: Pics//ratio_comparison.png  used on input line 72.
+Package pdftex.def Info: Pics//ratio_comparison.png  used on input line 75.
 (pdftex.def)             Requested size: 199.16516pt x 170.71597pt.
 
 
@@ -278,7 +278,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  72i,11n,77p,698b,283s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbrbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/hfbright/hfbrsl10.pfb>
-Output written on report.pdf (1 page, 118456 bytes).
+Output written on report.pdf (1 page, 118454 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
